@@ -53,7 +53,7 @@ for i in range(0, 50):
 
     komunikat = find_xpath('/html/body/main/div/div/div[2]/section/div').text
 
-    print(komunikat)
+    #print(komunikat)
 
     if komunikat.startswith("Dostępne nowe zasoby"):
         print("udalo sie")
